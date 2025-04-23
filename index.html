@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Singh - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="logo">AS</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Expertise</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </nav>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="dark-mode-toggle">
+                    <input type="checkbox" id="dark-mode-toggle" />
+                    <span class="slider round">
+                        <span class="sun">☀</span>
+                        <span class="moon">☽</span>
+                    </span>
+                </label>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hello, I am</h1>
+                <h2>Aniket Singh</h2>
+                <p>I'm an aspiring backend developer currently studying at SRM University, with a strong passion for designing robust and efficient aviation software systems to enhance safety, performance, and reliability.</p>
+                <a href="#" class="green-btn">Contact Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets\Monke.jpg" alt="Aniket Singh Profile Photo" title="Aniket Singh">
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="expertise">
+            <h2>MY EXPERTISE</h2>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <div class="expertise-icon">{&nbsp;}</div>
+                    <h3>LINUX</h3>
+                    <p>Proficient in Linux, with strong command-line skills and system management</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">{&nbsp;}</div>
+                    <h3>C++</h3>
+                    <p>Proficient in C++, with solid understanding of object-oriented programming, data structures, and algorithms.</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">◆</div>
+                    <h3>Git</h3>
+                    <p>Skilled in Git, with experience in version control, branching, and collaborative workflows.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <div class="skills-charts">
+                <div class="skill-chart">
+                    <div class="chart-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#eee" stroke-width="10"/>
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#ff0000" stroke-width="10" class="circle-progress" style="stroke-dashoffset: 48.11;"/>
+                        </svg>
+                        <div class="percentage">83.2%</div>
+                    </div>
+                    <div class="skill-name">LINUX</div>
+                </div>
+                <div class="skill-chart">
+                    <div class="chart-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#eee" stroke-width="10"/>
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#ff0000" stroke-width="10" class="circle-progress" style="stroke-dashoffset: 42.17;"/>
+                        </svg>
+                        <div class="percentage">85.1%</div>
+                    </div>
+                    <div class="skill-name">Version Control</div>
+                </div>
+                <div class="skill-chart">
+                    <div class="chart-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#eee" stroke-width="10"/>
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#ff0000" stroke-width="10" class="circle-progress" style="stroke-dashoffset: 24.38;"/>
+                        </svg>
+                        <div class="percentage">91.4%</div>
+                    </div>
+                    <div class="skill-name">C++</div>
+                </div>
+                <div class="skill-chart">
+                    <div class="chart-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#eee" stroke-width="10"/>
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#ff0000" stroke-width="10" class="circle-progress" style="stroke-dashoffset: 62.83;"/>
+                        </svg>
+                        <div class="percentage">77.8%</div>
+                    </div>
+                    <div class="skill-name">Python</div>
+                </div>
+            </div>
+            <div class="skills-content">
+                <h2>Backend Developer Skills</h2>
+                <p>I'm a passionate and driven engineering student with hands-on experience in software development, project management, and database systems. My journey includes leading club initiatives, contributing to tech projects, and constantly upskilling in areas like AI and DSA. Here's my resume.</p>
+                <a href="assets/Aniket Singh Resume.pdf" class="green-btn resume-btn" target="_blank">RESUME</a>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Expertise</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="Profile"><i class="fa" title="Profile">👤</i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa" title="LinkedIn">in</i></a>
+                <a href="#" aria-label="GitHub"><i class="fa" title="GitHub">◆</i></a>
+                <a href="#" aria-label="Email"><i class="fa" title="Email">✉</i></a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
